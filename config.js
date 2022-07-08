@@ -4,13 +4,13 @@ import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
-global.donasi = process.env.DONASI
+global.donasi = tidak ada donasi
 global.thumbmenu = process.env.THUMB_MENU
 global.sig = process.env.LINK_IG
-global.sgh = process.env.LINK_GITHUB
+global.sgh = https://github.com/romansyahgg12345
 global.sgc = process.env.LINK_GROUP
-global.ownernumber = process.env.NOWNER
-global.owner = [
+global.ownernumber = ['62895416210179']
+global.owner = ['62895416210179']
   ['0'],
   ['0'],
   [`${process.env.NOWNER}`, `${process.env.NAMAOWNER}`, true]
